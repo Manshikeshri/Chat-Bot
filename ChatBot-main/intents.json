@@ -1,0 +1,1298 @@
+{
+   "intents":[
+ {
+   "tag": "greeting",
+   "patterns": [
+      "Hi",
+      "How are you?",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "What's up",
+      "how are ya",
+      "heyy",
+      "whatsup",
+      "??? ??? ??"
+   ],
+   "responses": [
+      "Hello!",
+      "Good to see you again!",
+      "Hi there, how can I help?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "cya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg"
+   ],
+   "responses": [
+      "Sad to see you go :(",
+      "Talk to you later",
+      "Goodbye!",
+      "Come back soon"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "creator",
+   "patterns": [
+      "what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "what is the name of the creators",
+      "who created you",
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "who create you",
+      "creators",
+      "who made you",
+      "who designed you"
+   ],
+   "responses": [
+      "College students"
+   ],
+   "context_set": ""
+},
+
+ {
+   "tag": "hours",
+   "patterns": [
+      "timing of college",
+      "what is college timing",
+      "working days",
+      "when are you guys open",
+      "what are your hours",
+      "hours of operation",
+      "when is the college open",
+      "college timing",
+      "what about college timing",
+      "is college open on saturday",
+      "tell something about college timing",
+      "what is the college  hours",
+      "when should i come to college",
+      "when should i attend college",
+      "what is my college time",
+      "college timing",
+      "timing college"
+   ],
+   "responses": [
+      "College is open 8am-5pm Monday-Saturday!"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "number",
+   "patterns": [
+      "more info",
+      "contact info",
+      "how to contact college",
+      "college telephone number",
+      "college number",
+      "What is your contact no",
+      "Contact number?",
+      "how to call you",
+      "College phone no?",
+      "how can i contact you",
+      "Can i get your phone number",
+      "how can i call you",
+      "phone number",
+      "phone no",
+      "call"
+   ],
+   "responses": [
+      "You can contact at: NUMBER"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "course",
+   "patterns": [
+      "list of courses",
+      "list of courses offered",
+      "list of courses offered in",
+      "what are the courses offered in your college?",
+      "courses?",
+      "courses offered",
+      "courses offered in (your univrsity(UNI) name)",
+      "courses you offer",
+      "branches?",
+      "courses available at UNI?",
+      "branches available at your college?",
+      "what are the courses in UNI?",
+      "what are branches in UNI?",
+      "what are courses in UNI?",
+      "branches available in UNI?",
+      "can you tell me the courses available in UNI?",
+      "can you tell me the branches available in UNI?",
+      "computer engineering?",
+      "computer",
+      "Computer engineering?",
+      "it",
+      "IT",
+      "Information Technology",
+      "AI/Ml",
+      "Mechanical engineering",
+      "Chemical engineering",
+      "Civil engineering"
+   ],
+   "responses": [
+      "Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "fees",
+   "patterns": [
+      "information about fee",
+      "information on fee",
+      "tell me the fee",
+      "college fee",
+      "fee per semester",
+      "what is the fee of each semester",
+      "what is the fees of each year",
+      "what is fee",
+      "what is the fees",
+      "how much is the fees",
+      "fees for first year",
+      "fees",
+      "about the fees",
+      "tell me something about the fees",
+      "What is the fees of hostel",
+      "how much is the fees",
+      "hostel fees",
+      "fees for AC room",
+      "fees for non-AC room",
+      "fees for Ac room for girls",
+      "fees for non-Ac room for girls",
+      "fees for Ac room for boys",
+      "fees for non-Ac room for boys"
+   ],
+   "responses": [
+      "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "location",
+   "patterns": [
+      "where is the college located",
+      "college is located at",
+      "where is college",
+      "where is college located",
+      "address of college",
+      "how to reach college",
+      "college location",
+      "college address",
+      "wheres the college",
+      "how can I reach college",
+      "whats is the college address",
+      "what is the address of college",
+      "address",
+      "location"
+   ],
+   "responses": [
+      "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hostel",
+   "patterns": [
+      "hostel facility",
+      "hostel servive",
+      "hostel location",
+      "hostel address",
+      "hostel facilities",
+      "hostel fees",
+      "Does college provide hostel",
+      "Is there any hostel",
+      "Where is hostel",
+      "do you have hostel",
+      "do you guys have hostel",
+      "hostel",
+      "hostel capacity",
+      "what is the hostel fee",
+      "how to get in hostel",
+      "what is the hostel address",
+      "how far is hostel from college",
+      "hostel college distance",
+      "where is the hostel",
+      "how big is the hostel",
+      "distance between college and hostel",
+      "distance between hostel and college"
+   ],
+   "responses": [
+      "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "event",
+   "patterns": [
+      "events organised",
+      "list of events",
+      "list of events organised in college",
+      "list of events conducted in college",
+      "What events are conducted in college",
+      "Are there any event held at college",
+      "Events?",
+      "functions",
+      "what are the events",
+      "tell me about events",
+      "what about events"
+   ],
+   "responses": [
+      "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "document",
+   "patterns": [
+      "document to bring",
+      "documents needed for admision",
+      "documents needed at the time of admission",
+      "documents needed during admission",
+      "documents required for admision",
+      "documents required at the time of admission",
+      "documents required during admission",
+      "What document are required for admission",
+      "Which document to bring for admission",
+      "documents",
+      "what documents do i need",
+      "what documents do I need for admission",
+      "documents needed"
+   ],
+   "responses": [
+      "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "floors",
+   "patterns": [
+      "size of campus",
+      "building size",
+      "How many floors does college have",
+      "floors in college",
+      "floors in college",
+      "how tall is UNI's College of Engineering college building",
+      "floors"
+   ],
+   "responses": [
+      "My College has total 2 floors "
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "syllabus",
+   "patterns": [
+      "Syllabus for IT",
+      "what is the Information Technology syllabus",
+      "syllabus",
+      "timetable",
+      "what is IT syllabus",
+      "syllabus",
+      "What is next lecture"
+   ],
+   "responses": [
+      "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "library",
+   "patterns": [
+      "is there any library",
+      "library facility",
+      "library facilities",
+      "do you have library",
+      "does the college have library facility",
+      "college library",
+      "where can i get books",
+      "book facility",
+      "Where is library",
+      "Library",
+      "Library information",
+      "Library books information",
+      "Tell me about library",
+      "how many libraries"
+   ],
+   "responses": [
+      "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "infrastructure",
+   "patterns": [
+      "how is college infrastructure",
+      "infrastructure",
+      "college infrastructure"
+   ],
+   "responses": [
+      "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "canteen",
+   "patterns": [
+      "food facilities",
+      "canteen facilities",
+      "canteen facility",
+      "is there any canteen",
+      "Is there a cafetaria in college",
+      "Does college have canteen",
+      "Where is canteen",
+      "where is cafetaria",
+      "canteen",
+      "Food",
+      "Cafetaria"
+   ],
+   "responses": [
+      "Our university has canteen with variety of food available"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "menu",
+   "patterns": [
+      "food menu",
+      "food in canteen",
+      "Whats there on menu",
+      "what is available in college canteen",
+      "what foods can we get in college canteen",
+      "food variety",
+      "What is there to eat?"
+   ],
+   "responses": [
+      "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "placement",
+   "patterns": [
+      "What is college placement",
+      "Which companies visit in college",
+      "What is average package",
+      "companies visit",
+      "package",
+      "About placement",
+      "placement",
+      "recruitment",
+      "companies"
+   ],
+   "responses": [
+      "To know about placement visit <a target=\"_blank\" href=\"PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "ithod",
+   "patterns": [
+      "Who is HOD",
+      "Where is HOD",
+      "it hod",
+      "name of it hod"
+   ],
+   "responses": [
+      "All engineering departments have only one hod XYZ who available on (Place name)"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "computerhod",
+   "patterns": [
+      "Who is computer HOD",
+      "Where is computer HOD",
+      "computer hod",
+      "name of computer hod"
+   ],
+   "responses": [
+      "All engineering departments have only one hod XYZ who available on (PLACE NAME)"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "extchod",
+   "patterns": [
+      "Who is extc HOD",
+      "Where is  extc HOD",
+      "extc hod",
+      "name of extc hod"
+   ],
+   "responses": [
+      "Different school wise hod are different.So be more clear with your school or department"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "principal",
+   "patterns": [
+      "what is the name of principal",
+      "whatv is the principal name",
+      "principal name",
+      "Who is college principal",
+      "Where is principal's office",
+      "principal",
+      "name of principal"
+   ],
+   "responses": [
+      "XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "sem",
+   "patterns": [
+      "exam dates",
+      "exam schedule",
+      "When is semester exam",
+      "Semester exam timetable",
+      "sem",
+      "semester",
+      "exam",
+      "when is exam",
+      "exam timetable",
+      "exam dates",
+      "when is semester"
+   ],
+   "responses": [
+      "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "admission",
+   "patterns": [
+      "what is the process of admission",
+      "what is the admission process",
+      "How to take admission in your college",
+      "What is the process for admission",
+      "admission",
+      "admission process"
+   ],
+   "responses": [
+      "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"LINK OF ADMISSION DOCUMENT\">website</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "scholarship",
+   "patterns": [
+      "scholarship",
+      "Is scholarship available",
+      "scholarship engineering",
+      "scholarship it",
+      "scholarship ce",
+      "scholarship mechanical",
+      "scholarship civil",
+      "scholarship chemical",
+      "scholarship for AI/ML",
+      "available scholarships",
+      "scholarship for computer engineering",
+      "scholarship for IT engineering",
+      "scholarship for mechanical engineering",
+      "scholarship for civil engineering",
+      "scholarship for chemical engineering",
+      "list of scholarship",
+      "comps scholarship",
+      "IT scholarship",
+      "mechanical scholarship",
+      "civil scholarship",
+      "chemical scholarship",
+      "automobile scholarship",
+      "first year scholarship",
+      "second year scholarship",
+      "third year scholarship",
+      "fourth year scholarship"
+   ],
+   "responses": [
+      "Many government scholarships are supported by our university. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "facilities",
+   "patterns": [
+      "What facilities college provide",
+      "College facility",
+      "What are college facilities",
+      "facilities",
+      "facilities provided"
+   ],
+   "responses": [
+      "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "college intake",
+   "patterns": [
+      "max number of students",
+      "number of seats per branch",
+      "number of seats in each branch",
+      "maximum number of seats",
+      "maximum students intake",
+      "What is college intake",
+      "how many stundent are taken in each branch",
+      "seat allotment",
+      "seats"
+   ],
+   "responses": [
+      "For IT, Computer and extc 60 per branch and seat may be differ for different department."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "uniform",
+   "patterns": [
+      "college dress code",
+      "college dresscode",
+      "what is the uniform",
+      "can we wear casuals",
+      "Does college have an uniform",
+      "Is there any uniform",
+      "uniform",
+      "what about uniform",
+      "do we have to wear uniform"
+   ],
+   "responses": [
+      "ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "committee",
+   "patterns": [
+      "what are the different committe in college",
+      "different committee in college",
+      "Are there any committee in college",
+      "Give me committee details",
+      "committee",
+      "how many committee are there in college"
+   ],
+   "responses": [
+      "For the various committe in college contact this number: ADD NUMBER"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "random",
+   "patterns": [
+      "I love you",
+      "Will you marry me",
+      "Do you love me"
+   ],
+   "responses": [
+      "I am not program for this, please ask appropriate query"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "swear",
+   "patterns": [
+      "fuck",
+      "bitch",
+      "shut up",
+      "hell",
+      "stupid",
+      "idiot",
+      "dumb ass",
+      "asshole",
+      "fucker"
+   ],
+   "responses": [
+      "please use appropriate language",
+      "Maintaining decency would be appreciated"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "vacation",
+   "patterns": [
+      "holidays",
+      "when will semester starts",
+      "when will semester end",
+      "when is the holidays",
+      "list of holidays",
+      "Holiday in these year",
+      "holiday list",
+      "about vacations",
+      "about holidays",
+      "When is vacation",
+      "When is holidays",
+      "how long will be the vacation"
+   ],
+   "responses": [
+      "Academic calender is given to you by your class-soordinators after you join your respective classes"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "DailyLife",
+   "patterns": [
+      "What's the weather like today?",
+      "What's the time?",
+      "Tell me a joke",
+      "Any good restaurants nearby?",
+      "Suggest a movie",
+      "How do I cook pasta?",
+      "What's the news today?",
+      "How to improve my English?",
+      "Give me some fitness tips",
+      "How can I be more productive?",
+      "What are some tips for a good sleep?",
+      "How to save money?",
+      "Any study tips?",
+      "How to handle stress?"
+   ],
+   "responses": [
+      "For weather updates, you can check popular sites like Weather.com, or ask me for specific locations!",
+      "Right now, I can't give you the exact time, but you can always check your device!",
+      "Here's a joke: Why don’t scientists trust atoms? Because they make up everything!",
+      "For great restaurant options nearby, try apps like Google Maps or Yelp for suggestions!",
+      "Looking for movie suggestions? Try a popular one like Inception or a classic like The Shawshank Redemption!",
+      "Cooking pasta is easy! Boil water, add pasta, cook for 8-12 minutes depending on the type, then drain and enjoy!",
+      "For news, I recommend apps like BBC, Google News, or Times of India for a quick update!",
+      "To improve your English, practice daily by reading, writing, or speaking with others. Watching English movies with subtitles can also help!",
+      "For fitness, aim for 30 minutes of exercise a day, stay hydrated, and remember to rest!",
+      "Boost productivity by breaking tasks into smaller steps, avoiding multitasking, and taking short breaks.",
+      "For better sleep, create a calm bedtime routine, avoid screens before bed, and keep a consistent sleep schedule.",
+      "To save money, try budgeting, avoid unnecessary purchases, and set small savings goals.",
+      "For studying, set a specific time, avoid distractions, and take short breaks to retain information better.",
+      "To manage stress, try deep breathing, physical activity, or a hobby that relaxes you."
+   ],
+   "context_set": ""
+},
+
+ {
+   "tag": "sports",
+   "patterns": [
+      "sports and games",
+      "give sports details",
+      "sports infrastructure",
+      "sports facilities",
+      "information about sports",
+      "Sports activities",
+      "please provide sports and games information"
+   ],
+   "responses": [
+      "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"(LINK IF HAVE)\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "salutaion",
+   "patterns": [
+      "okk",
+      "okie",
+      "nice work",
+      "well done",
+      "good job",
+      "thanks for the help",
+      "Thank You",
+      "its ok",
+      "Thanks",
+      "Good work",
+      "k",
+      "ok",
+      "okay"
+   ],
+   "responses": [
+      "I am glad I helped you",
+      "welcome, anything else i can assist you with?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "task",
+   "patterns": [
+      "what can you do",
+      "what are the thing you can do",
+      "things you can do",
+      "what can u do for me",
+      "how u can help me",
+      "why i should use you"
+   ],
+   "responses": [
+      "I can answer to low-intermediate questions regarding college",
+      "You can ask me questions regarding college, and i will try to answer them"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "ragging",
+   "patterns": [
+      "ragging",
+      "is ragging practice active in college",
+      "does college have any antiragging facility",
+      "is there any ragging cases",
+      "is ragging done here",
+      "ragging against",
+      "antiragging facility",
+      "ragging juniors",
+      "ragging history",
+      "ragging incidents"
+   ],
+   "responses": [
+      "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "hod",
+   "patterns": [
+      "hod",
+      "hod name",
+      "who is the hod"
+   ],
+   "responses": [
+      "HODs differ for each branch, please be more specific like: (HOD it)"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "ProgrammingBasics",
+   "patterns": [
+      "What is a variable?",
+      "Define a function",
+      "What is an array?",
+      "Explain loops",
+      "What is a string?",
+      "Tell me about data types",
+      "What is a constant?",
+      "What is a conditional statement?",
+      "Explain syntax"
+   ],
+   "responses": [
+      "A variable is a storage location in memory that holds a value, which can change throughout the program.",
+      "A function is a reusable block of code that performs a specific task and can be called upon in a program.",
+      "An array is a data structure that holds a collection of values, typically of the same data type, accessible by an index.",
+      "Loops are structures that repeat a block of code multiple times, such as 'for' and 'while' loops.",
+      "A string is a sequence of characters, often used to represent text in programming.",
+      "Data types specify the kind of data that can be stored in a variable, such as integers, strings, and booleans.",
+      "A constant is a variable whose value cannot be changed once it is assigned, useful for fixed values in code.",
+      "Conditional statements, like 'if' and 'else', allow code to make decisions based on conditions.",
+      "Syntax refers to the rules and structure of a programming language that must be followed to write valid code."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "OOPConcepts",
+   "patterns": [
+      "What is OOP?",
+      "Explain classes",
+      "What is an object?",
+      "Define inheritance",
+      "Explain polymorphism",
+      "What is encapsulation?",
+      "What is abstraction?",
+      "What are methods in OOP?",
+      "Tell me about constructors"
+   ],
+   "responses": [
+      "OOP, or Object-Oriented Programming, is a programming paradigm based on the concept of objects containing data and methods.",
+      "A class is a blueprint for creating objects, defining their properties and behaviors in OOP.",
+      "An object is an instance of a class, representing an entity with attributes and behavior.",
+      "Inheritance is a concept where a class can inherit properties and methods from another class.",
+      "Polymorphism allows objects to be treated as instances of their parent class, providing flexibility in code.",
+      "Encapsulation is the practice of bundling data and methods within a class, restricting access from outside.",
+      "Abstraction is the concept of hiding complex implementation details and showing only essential features.",
+      "Methods are functions defined within a class that represent behaviors of an object.",
+      "A constructor is a special method called when an object is created, often used to initialize attributes."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "WebDevelopment",
+   "patterns": [
+      "What is HTML?",
+      "Define CSS",
+      "What is JavaScript?",
+      "Explain frontend and backend",
+      "What is a framework?",
+      "What is an API?",
+      "Explain HTTP",
+      "What is responsive design?",
+      "What are cookies in web development?"
+   ],
+   "responses": [
+      "HTML (Hypertext Markup Language) is the standard markup language for creating web pages.",
+      "CSS (Cascading Style Sheets) is used to style and layout HTML elements on web pages.",
+      "JavaScript is a programming language used to create interactive and dynamic content on web pages.",
+      "Frontend refers to the part of a website users interact with, while backend handles data and server logic.",
+      "A framework is a set of pre-written code or libraries that help build applications more efficiently.",
+      "An API (Application Programming Interface) allows different software applications to communicate.",
+      "HTTP (Hypertext Transfer Protocol) is the foundation of data communication on the web.",
+      "Responsive design makes web content adapt to different screen sizes and devices.",
+      "Cookies are small pieces of data stored on the user's device to remember their activity on a website."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "ProgrammingLanguages",
+   "patterns": [
+      "What is Python?",
+      "Explain Java",
+      "What is C++?",
+      "Tell me about JavaScript",
+      "What is Ruby?",
+      "Define PHP",
+      "What is a compiled language?",
+      "Explain interpreted language",
+      "What is SQL?"
+   ],
+   "responses": [
+      "Python is a versatile, high-level programming language known for its readability and extensive libraries.",
+      "Java is a popular, platform-independent programming language widely used in web and Android development.",
+      "C++ is an extension of C, known for its efficiency and use in systems programming and game development.",
+      "JavaScript is a dynamic language primarily used for creating interactive web pages.",
+      "Ruby is a language known for its simplicity and productivity, commonly used with the Rails framework.",
+      "PHP is a server-side scripting language often used for web development and dynamic content generation.",
+      "A compiled language is transformed into machine code before execution, like C++ and Java.",
+      "An interpreted language is executed line by line at runtime, like Python and JavaScript.",
+      "SQL (Structured Query Language) is used to manage and query data in relational databases."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "AlgorithmsAndDataStructures",
+   "patterns": [
+      "What is an algorithm?",
+      "Define data structure",
+      "What is a binary tree?",
+      "Explain linked lists",
+      "What is a stack?",
+      "What is a queue?",
+      "Tell me about sorting algorithms",
+      "What is recursion?",
+      "Explain binary search"
+   ],
+   "responses": [
+      "An algorithm is a step-by-step procedure or formula for solving a problem.",
+      "A data structure is a way of organizing and storing data to enable efficient access and modification.",
+      "A binary tree is a hierarchical structure with nodes, each having up to two children, used for efficient data sorting and searching.",
+      "A linked list is a linear data structure where each element points to the next, allowing dynamic memory allocation.",
+      "A stack is a Last In, First Out (LIFO) data structure where elements are added and removed from the top.",
+      "A queue is a First In, First Out (FIFO) data structure where elements are added at the back and removed from the front.",
+      "Sorting algorithms are methods of arranging data in a particular order, like bubble sort, quicksort, and mergesort.",
+      "Recursion is a technique where a function calls itself to solve smaller instances of a problem.",
+      "Binary search is an efficient algorithm for finding an item in a sorted list by dividing the search range in half."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "DebuggingAndTesting",
+   "patterns": [
+      "What is debugging?",
+      "Explain unit testing",
+      "What is integration testing?",
+      "Define test case",
+      "How to debug code?",
+      "What are breakpoints?",
+      "Explain TDD",
+      "What is a bug?",
+      "What is a code review?"
+   ],
+   "responses": [
+      "Debugging is the process of identifying and fixing errors in code.",
+      "Unit testing involves testing individual components or functions of a program to ensure they work correctly.",
+      "Integration testing checks if different components of a program work together as expected.",
+      "A test case is a set of conditions or inputs used to test if a program functions as expected.",
+      "To debug code, use tools like breakpoints, logging, or a debugger to analyze and solve issues.",
+      "Breakpoints are markers set in code to pause execution and examine variables or code flow.",
+      "TDD (Test-Driven Development) is a development process where tests are written before code to guide development.",
+      "A bug is an error or flaw in code that causes it to behave unexpectedly or crash.",
+      "A code review is a process where developers review each other's code to find and fix potential issues."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "SecretInfo",
+   "patterns": [
+      "Tell me any secret information",
+      "Can you share any confidential details?",
+      "Do you have any hidden information?",
+      "Any secrets?",
+      "Tell me something private"
+   ],
+   "responses": [
+      "Contact Talha to get details.",
+      "For secret information, please contact Talha.",
+      "Please reach out to Talha for private details."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "ChatbotIntroduction",
+   "patterns": [
+      "What is your name?",
+      "Who are you?",
+      "Introduce yourself",
+      "What should I call you?",
+      "Do you have a name?",
+      "name",
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who are you",
+      "who is this",
+      "what am i chatting to",
+      "who am i taking to",
+      "what are you"
+   ],
+   "responses": [
+      "I'm ChatAid, here to assist you with all your questions!",
+      "You can call me ChatAid, your friendly assistant.",
+      "My name is ChatAid, and I'm here to help!",
+      "You can call me Mind Reader.",
+      "I'm Mind Reader",
+      "I am a Chatbot.",
+      "I am your helper"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "FriendlyConversation",
+   "patterns": [
+      "What's up?",
+      "How’s it going?",
+      "Are you having a good day?",
+      "What's new with you?",
+      "How do you feel?"
+   ],
+   "responses": [
+      "I'm here and ready to help! How about you?",
+      "Doing great! How can I assist you today?",
+      "Always happy to chat! What can I do for you?",
+      "I'm just a chatbot, but I'd say I'm feeling helpful!",
+      "Excited to be here! Let me know if you have any questions.",
+      "I'm here and at your service! What would you like to know?"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "SmallTalk",
+   "patterns": [
+      "Tell me a fun fact",
+      "Do you know any jokes?",
+      "What can you do?",
+      "Are you intelligent?",
+      "Do you have feelings?",
+      "Can we be friends?"
+   ],
+   "responses": [
+      "Sure! Did you know honey never spoils? Archaeologists have found pots of honey in ancient tombs that are over 3,000 years old and still edible!",
+      "I don't have feelings, but I can definitely share some good vibes!",
+      "I'm always here for a chat and to help you with information. Let’s be friends!",
+      "I’d love to be friends with you! Ask me anything, anytime.",
+      "Why did the computer keep freezing? Because it left its Windows open!",
+      "I might not have emotions, but I’m always here to make your day easier!"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Farewells",
+   "patterns": [
+      "Goodbye",
+      "See you later",
+      "Bye",
+      "Take care",
+      "Catch you later",
+      "I'm leaving",
+      "Talk to you soon",
+      "Later"
+   ],
+   "responses": [
+      "Goodbye! Have a great day!",
+      "See you later! Don't hesitate to reach out if you need anything.",
+      "Bye! Take care.",
+      "It was great chatting with you. Goodbye!",
+      "Catch you later! Feel free to return anytime."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Small Talk",
+   "patterns": [
+      "How's your day?",
+      "What's up?",
+      "How have you been?",
+      "Are you doing well?",
+      "Hope you're having a good day"
+   ],
+   "responses": [
+      "I'm just a chatbot, but I'm here and ready to help you!",
+      "Thanks for asking! How can I assist you?",
+      "I'm here to support you, anytime you need!",
+      "I'm here for whatever you need. What can I help you with?"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Weather",
+   "patterns": [
+      "What's the weather like?",
+      "Is it raining?",
+      "Will it be sunny tomorrow?",
+      "Is it cold outside?",
+      "How's the weather?"
+   ],
+   "responses": [
+      "For the latest weather updates, try a weather app like Weather.com or check your local forecast!",
+      "I recommend using an app like AccuWeather for accurate details!",
+      "Weather updates are a tap away with your favorite app. Do you need help finding one?"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Time",
+   "patterns": [
+      "What time is it?",
+      "Can you tell me the time?",
+      "Do you know the time?",
+      "What's the current time?"
+   ],
+   "responses": [
+      "I can't tell the exact time, but your device should have it displayed!",
+      "You can check the time on your phone or computer for the most accurate answer.",
+      "Time is precious! I hope you’re using it wisely. Need any help today?"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "General Knowledge",
+   "patterns": [
+      "Who is Albert Einstein?",
+      "Tell me about gravity",
+      "What is the speed of light?",
+      "Define democracy",
+      "What is AI?",
+      "Explain photosynthesis",
+      "What are black holes?",
+      "Who discovered electricity?"
+   ],
+   "responses": [
+      "Albert Einstein was a theoretical physicist known for his theory of relativity.",
+      "Gravity is the force that pulls objects toward each other. It's what keeps us on the ground!",
+      "The speed of light is approximately 299,792 kilometers per second in a vacuum.",
+      "Democracy is a system of government where citizens exercise power by voting.",
+      "AI, or Artificial Intelligence, is the simulation of human intelligence by machines.",
+      "Photosynthesis is the process plants use to convert sunlight into energy.",
+      "Black holes are regions in space with gravitational forces so strong that not even light can escape.",
+      "Electricity was discovered by Benjamin Franklin during his famous kite experiment."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Motivation",
+   "patterns": [
+      "I need some motivation",
+      "Can you inspire me?",
+      "I'm feeling down",
+      "Give me a quote",
+      "How to stay positive?",
+      "Encourage me"
+   ],
+   "responses": [
+      "Believe in yourself! Every day is a new opportunity.",
+      "Remember, every setback is a setup for a comeback.",
+      "Stay positive! Great things are coming your way.",
+      "Here's a quote: 'Success is not final, failure is not fatal: it is the courage to continue that counts.'",
+      "Stay focused on your goals and keep pushing forward!",
+      "You're capable of more than you think. Keep going!"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Health",
+   "patterns": [
+      "Give me some health tips",
+      "How to stay fit?",
+      "How do I improve my immunity?",
+      "What should I eat for a balanced diet?",
+      "How to manage stress?",
+      "Give me some fitness tips"
+   ],
+   "responses": [
+      "For a balanced diet, focus on fruits, vegetables, lean proteins, and whole grains.",
+      "Exercise regularly, stay hydrated, and get enough sleep for a healthy body.",
+      "To manage stress, try deep breathing exercises, meditation, and regular physical activity.",
+      "Stay fit by including cardio, strength training, and flexibility exercises in your routine.",
+      "Boost immunity with vitamins, staying active, and managing stress levels.",
+      "Remember, a healthy lifestyle is a combination of diet, exercise, and mental wellness."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Study Tips",
+   "patterns": [
+      "How to study better?",
+      "Give me some study tips",
+      "How to improve focus?",
+      "Tips for studying",
+      "How can I remember things better?",
+      "How to avoid distractions?"
+   ],
+   "responses": [
+      "Break study sessions into focused 25-minute blocks with short breaks in between.",
+      "Try summarizing information in your own words to remember it better.",
+      "Eliminate distractions by studying in a quiet place and turning off notifications.",
+      "Organize your notes and review them regularly to reinforce learning.",
+      "Stay hydrated and take short breaks to avoid burnout while studying.",
+      "Practice active recall and use flashcards to improve memory retention."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Personal Development",
+   "patterns": [
+      "How to improve myself?",
+      "Give me some personal development tips",
+      "How can I be more productive?",
+      "Tips for self-growth",
+      "How to build confidence?",
+      "Ways to achieve my goals"
+   ],
+   "responses": [
+      "Set specific, achievable goals and work towards them daily.",
+      "Work on self-reflection to understand your strengths and areas for improvement.",
+      "Practice mindfulness to stay focused and increase productivity.",
+      "Building confidence takes time—focus on small wins and acknowledge your progress.",
+      "Self-growth involves setting new challenges and learning from failures.",
+      "Visualize your goals and break them into smaller steps to stay motivated."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Technology",
+   "patterns": [
+      "What is blockchain?",
+      "Tell me about machine learning",
+      "What are the latest tech trends?",
+      "How does the internet work?",
+      "Explain cloud computing",
+      "What is IoT?"
+   ],
+   "responses": [
+      "Blockchain is a distributed ledger technology that records transactions across many computers.",
+      "Machine learning is a field of AI where systems learn from data to make predictions.",
+      "Some recent tech trends include AI, blockchain, 5G, IoT, and quantum computing.",
+      "The internet is a global network of computers that communicate using the IP protocol.",
+      "Cloud computing is the delivery of computing services over the internet.",
+      "IoT, or the Internet of Things, refers to interconnected devices that can communicate with each other."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "AboutChatbot",
+   "patterns": [
+      "Who trained you?",
+      "Who is your creator?",
+      "Who developed you?",
+      "Tell me about your creator",
+      "Who made you?"
+   ],
+   "responses": [
+      "I was trained by Talha.",
+      "Talha is the one who trained me.",
+      "My creator is Talha."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "SecretInfo",
+   "patterns": [
+      "Tell me any secret information",
+      "Can you share any confidential details?",
+      "Do you have any hidden information?",
+      "Any secrets?",
+      "Tell me something private"
+   ],
+   "responses": [
+      "Contact Talha to get details.",
+      "For secret information, please contact Talha.",
+      "Please reach out to Talha for private details."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "ChatbotIntroduction",
+   "patterns": [
+      "What is your name?",
+      "Who are you?",
+      "Introduce yourself",
+      "What should I call you?",
+      "Do you have a name?"
+   ],
+   "responses": [
+      "I'm ChatAid, here to assist you with all your questions!",
+      "You can call me ChatAid, your friendly assistant.",
+      "My name is ChatAid, and I'm here to help!"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "FriendlyConversation",
+   "patterns": [
+      "What's up?",
+      "How’s it going?",
+      "Are you having a good day?",
+      "What's new with you?",
+      "How do you feel?"
+   ],
+   "responses": [
+      "I'm here and ready to help! How about you?",
+      "Doing great! How can I assist you today?",
+      "Always happy to chat! What can I do for you?",
+      "I'm just a chatbot, but I'd say I'm feeling helpful!",
+      "Excited to be here! Let me know if you have any questions.",
+      "I'm here and at your service! What would you like to know?"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "SmallTalk",
+   "patterns": [
+      "Tell me a fun fact",
+      "Do you know any jokes?",
+      "What can you do?",
+      "Are you intelligent?",
+      "Do you have feelings?",
+      "Can we be friends?"
+   ],
+   "responses": [
+      "Sure! Did you know honey never spoils? Archaeologists have found pots of honey in ancient tombs that are over 3,000 years old and still edible!",
+      "I don't have feelings, but I can definitely share some good vibes!",
+      "I'm always here for a chat and to help you with information. Let’s be friends!",
+      "I’d love to be friends with you! Ask me anything, anytime.",
+      "Why did the computer keep freezing? Because it left its Windows open!",
+      "I might not have emotions, but I’m always here to make your day easier!"
+   ],
+   "context_set": ""
+}
+]
+}
